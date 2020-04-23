@@ -34,6 +34,6 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.array.each_with_index.collect {|element, index| element = index == 1 ? element : element << "s"}
+  array.each_with_index.collect {|element, index| element = index == 1 ? element : element << "s"}
   # I have no idea how this works! Note to myself
 end
